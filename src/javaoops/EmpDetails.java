@@ -1,5 +1,4 @@
 package javaoops;
-
 public class EmpDetails {
 	int id;
 	String namee;
@@ -15,7 +14,6 @@ public class EmpDetails {
 		EmpDetails obj2=new EmpDetails();
 		obj1.init(1234,"abhishek",10000,"Manager");
 		obj1.display();
-
 	}
 	void init(int empid,String name,int salary,String designation)
 	{
@@ -23,7 +21,6 @@ public class EmpDetails {
 		 namee=name;
 		 sal=salary;
 		 des=designation;
-		
 	}
 	void display()
 	{

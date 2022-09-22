@@ -17,7 +17,7 @@ void add(int a,int b)
 }
 void add(float a,float b)
 {
-float sum=a+b;
+    float sum=a+b;
 	System.out.println("Sum is "+sum);
 	
 }
@@ -26,6 +26,5 @@ void add(int x,int y,int z)
 	sum=x+y+z;
 	System.out.println("Sum is "+sum);
 }
-
 
 }

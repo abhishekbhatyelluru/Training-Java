@@ -7,7 +7,6 @@ interface desktop
 {
 	void deskdetails();
 }
-
 public class InterfaceMultipleinheritence implements laptop,desktop
 {
 
@@ -26,5 +25,4 @@ public class InterfaceMultipleinheritence implements laptop,desktop
 	{
 		System.out.println("My Desktop is Hp");
 	}
-
 }
